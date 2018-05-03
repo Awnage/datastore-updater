@@ -69,7 +69,7 @@ gulp.task('min', ['sass'], function () {
     var gulpif = require('gulp-if');
     var ngAnnotate = require('gulp-ng-annotate');
     var uglify = require('gulp-uglify');
-    var minifyCss = require('gulp-minify-css');
+    var minifyCss = require('gulp-clean-css');
     var rev = require('gulp-rev');
     var revReplace = require('gulp-rev-replace');
 
